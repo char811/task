@@ -1,0 +1,103 @@
+.appU_box {
+    margin: 0 13% 0 10%;
+    height:10%;
+    width:auto;
+}
+.search_li{
+    margin: 0 !important;
+    overflow: visible !important;
+    padding: 0 0 0 15px;
+    position: relative;
+    list-style-type: none;
+}
+.search_wide {
+    border: 1px solid #d9d9d9;
+    height: 31px;
+    margin-top: 2px;
+    width: auto;
+    padding: 0 3%;
+}
+.search_action_block {
+    display: block;
+    zoom: 1;
+    border: 0 none;
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    width: auto;
+    margin-right: -5%
+}
+.search_process_icon {
+    /*    background: url("/images/loading.gif") no-repeat 0 0 #fff; */
+    background: url("/loading.gif") no-repeat 0 0 #fff;
+    margin-top: 6px;
+    height: 20px;
+    width: 22px;
+}
+.go_search{
+    width: 9%;
+    height: 26px;
+    background: #fff url('/wide_search_icon.png') no-repeat;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor:pointer;
+    float: right;
+    margin-top: 0.5%;
+    margin-left: 7%;
+}
+.wd_container{
+    float:right;
+    margin-right: 6px;
+    width:30%;
+}
+#city_a, #city_b {
+    width: 30%;
+    height: 70%;
+    margin-top: 0.15%;
+    font-size: 85%;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+#search_object {
+    height: 29px;
+    width: 75%;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    color: #141312;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 -10% 0 0;
+    padding: 4px 1px 4px 7px;
+    text-overflow: ellipsis;
+    text-align: center;
+    vertical-align: middle;
+    visibility: visible;
+    font-family: arial,sans-serif;
+}
+.no_display {
+    display: none;
+}
+table {
+    width: 90%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+th {
+    background: #BCEBDD;
+    color: #ffffff;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    padding: 10px 20px;
+    background: #f2f2f2;
+}

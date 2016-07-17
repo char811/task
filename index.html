@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <script type="text/javascript"  src="/jquery.min.js"></script>
+    <script type="text/javascript"  src="/index.js"></script>
+</head>
+<body>
+<div class="appU_box">
+    <ul>
+        <li class="search_li">
+            <form name="search" action="/script.php" method="POST" id="search_form" class="search_wide">
+                <input type="text" name="city_a" id="city_a" autocomplete="off" placeholder="Enter city A"/>
+                <input type="text" name="city_b" id="city_b" autocomplete="off" placeholder="Enter city B" style="margin-left: 2%"/>
+                <div class="wd_container">
+                    <select id="search_object" name="search_object">
+                        <option value="default" selected>Please select</option>
+                        <option value="distance">Distance</option>
+                        <option value="time">Time</option>
+                    </select>
+                    <a class="search_action_block no_display" id="clear_search" href="#" title="Clear search results"></a>
+                    <input type="submit" class="go_search"  value="&nbsp;" id="search_img" title="Start search"/>
+                </div>
+                <div class="clearr"></div>
+            </form>
+        </li>
+    </ul>
+</div>
+<div id="table_div" class="no_display" style="margin: 10% 0 0 10%">
+    <table id="routes">
+        <tr>
+            <th>City From</th>
+            <th>City To</th>
+            <th>Distance</th>
+            <th>Time</th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
